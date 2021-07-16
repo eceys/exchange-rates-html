@@ -39,10 +39,12 @@ async function convert(a, b){
     let writeMoney = moneyFrom.value;
     if(!writeMoney || writeMoney<=0){
         alert('Please, write money');
+    }else{
+        let result = ( writeMoney / values[a] ) * values[b];
+        box.innerText = result;
     }
 
-    let result = ( writeMoney / values[a] ) * values[b];
-    box.innerText = result;
+    
 
 }
 
