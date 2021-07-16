@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:  'Raleway', sans-serif;
+    color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.backgroundImage{
+    background-image: url(./image/1.jpg);
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: rgba(0,0,0,.65);
+    height:100vh;
+}
+
+.header{
+    padding: 100px 20px 30px 20px;
+}
+
+.header h1{
+    font-size: 50px;
+    color: #fbb034;
+    text-shadow: 1px 3px rgba(0,0,0,.9);
+}
+
+.header input{
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid #fbb034;
+    text-align: center;
+    font-size: 20px;
+    color: #f2f2f2;
+}
+
+.moneyInput{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-size: 35px;
+}
+
+#moneyFrom{
+    outline: 0;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 10px;
+    font-size: 18px;
+}
+#moneyTo{
+    outline: 0;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 10px;
+}
+
+
+.box{
+    display: flex;
+    width: 245px;
+    height: 45px;
+    background-color: white;
+    border-radius: 8px;
+    margin: 16px;
+    align-items: center;   
+}
+
+.text{
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    font-size: 18px; 
+    font-weight: 1000;
+    display: flex;
+    margin-left: 10px;
+}
+
+.result{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#moneyTo{
+    font-size: 18px;
+}
+
+.box:hover{
+    background-color: #f2f2f2;
+}
+
+#moneyFrom:hover{
+    background-color: #f2f2f2;
+    cursor: default;
+}
+#moneyTo:hover{
+    background-color: #f2f2f2;
+    cursor: default;
+}
+
+
+.button{
+    outline: 0;
+    border: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.button:hover{
+    background-color: #fbb034;
+}
