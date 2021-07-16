@@ -1,4 +1,4 @@
-const api = ""  //yout api here
+const api = "http://api.exchangeratesapi.io/v1/latest?access_key=c"  //your api here
 
 //var
 let innerHtmlMoney;
